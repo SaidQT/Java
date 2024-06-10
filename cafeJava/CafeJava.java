@@ -52,11 +52,10 @@ public class CafeJava {
             System.out.println(readyMessage + " " + customer3 );
             System.out.println(displayTotalMessage + " " + dripCoffee);
             if (latte > dripCoffee){
-            System.out.printf("You ordered latte, the difference is $%.2f%n", (latte - dripCoffee));
+            System.out.printf("You ordered latte, we owe you $%.2f%n", (latte - dripCoffee));
             }
             else{
-                System.out.printf("You ordered latte, the difference is $%.2f%n", (dripCoffee-latte));
-
+                System.out.printf("You ordered latte, you owe us $%.2f%n", (dripCoffee-latte));
             }
         }
         else{
