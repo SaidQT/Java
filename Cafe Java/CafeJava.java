@@ -51,8 +51,13 @@ public class CafeJava {
         if (isReadyOrder3){
             System.out.println(readyMessage + " " + customer3 );
             System.out.println(displayTotalMessage + " " + dripCoffee);
+            if (latte > dripCoffee){
             System.out.printf("You ordered latte, the difference is $%.2f%n", (latte - dripCoffee));
+            }
+            else{
+                System.out.printf("You ordered latte, the difference is $%.2f%n", (dripCoffee-latte));
 
+            }
         }
         else{
             System.out.println(pendingMessage + " " + customer3);
