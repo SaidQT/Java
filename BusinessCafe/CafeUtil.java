@@ -28,7 +28,7 @@ public class CafeUtil {
         }
     }
     public void addCustomer(ArrayList<String> customers){
-        System.out.println("Please enter your name here ---- ");
+        System.out.println("Please enter your name here ");
         String username = System.console().readLine();
         System.out.println("Hello" + " "+ username);
         int customerTotal= customers.size();

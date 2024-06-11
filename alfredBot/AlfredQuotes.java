@@ -9,15 +9,16 @@ public class AlfredQuotes {
     public String guestGreeting(String name) {
         return String.format("Hello %s. Lovely to see you, how are you?",name);
     }
+
     public String guestGreeting(String firstName,String lastName){
         return String.format("Hello %s %s. Lovely to see you.", firstName,lastName);
     }
+
     public String dateAnnouncement() {
         Date now= new Date();
         return String.format("It is currently" + " " + now);
     }
 
-    
     public String respondBeforeAlexis(String conversation) {
         if (conversation.indexOf("Alexis") > -1){
             return "Right away, sir. She certainly isn't sophisticated enough for that.";
@@ -28,6 +29,7 @@ public class AlfredQuotes {
 
         return "Right. And with that I shall retire.";
     }
+    
     public String guestFarewell(String name){
         return String.format("Good bye %s, see you.", name);
     }
