@@ -2,7 +2,7 @@ import java.util.ArrayList;
     
 // Here we're creating a new data type called Order
 public class Order {
-    
+ 
     // MEMBER VARIABLES
     private String name="" ; 
     private boolean ready; 
