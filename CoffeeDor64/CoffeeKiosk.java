@@ -49,9 +49,12 @@ public class CoffeeKiosk {
             while(!itemNumber.equals("q")) {
                 System.out.println("Please enter another menu item index or q to quit:");
                 itemNumber = System.console().readLine();
+                if (itemNumber.equals("q")){
+                    break;
+                }
                 newOrder.addItems(this.menu.get(Integer.parseInt(itemNumber)));
         }
-        newOrder.display();// After you have collected their order, print the order details 
+        newOrder.display(); 
     
         }
     

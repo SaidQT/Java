@@ -38,7 +38,7 @@ public class TestOrders {
         CoffeeKiosk coffee1= new CoffeeKiosk();
         coffee1.addMenuItem("mocha", 3.50);
         coffee1.addMenuItem("cappucino", 5.50);
-        coffee1.addMenuItemByInput();
-        coffee1.addMenuItemByInput();
+        coffee1.newOrder();
+      
     }
 }
